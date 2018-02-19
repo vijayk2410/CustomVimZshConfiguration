@@ -1,0 +1,113 @@
+VIM CONFIGURATION
+1.download vundle
+    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+2. to INSTALL PLUGINS
+    To install from command line: vim +PluginInstall +qall
+
+3. Plugins
+     Plugin 'tpope/vim-fugitive'
+          Plugin 'scrooloose/nerdtree'
+          Plugin 'scrooloose/syntastic'
+          Plugin 'kien/ctrlp.vim'
+          Plugin 'scrooloose/nerdcommenter'
+          "Plugin 'valloric/youcompleteme'
+          Plugin 'vim-scripts/indentpython.vim'
+          Plugin 'nvie/vim-flake8'
+          "Plugin 'jistr/vim-nerdtree-tabs'
+          "Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+          Plugin 'jiangmiao/auto-pairs'
+          Plugin 'danro/rename.vim'
+          Plugin 'taglist.vim'
+          Plugin 'klen/python-mode'
+          Plugin 'kevinw/pyflakes-vim'
+          Plugin 'tpope/vim-surround'
+
+4. Surround plugin
+    cd ~/.vim/bundle
+    git clone git://github.com/tpope/vim-surround.git
+
+-------------------------------------------------------------------------------------
+
+ZSH CONFIGURATION
+
+1. install: sudo apt-get install zsh
+
+2. download ohh my zsh
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+3. auto suggestions 
+    git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+4. completion
+    git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions
+
+5. plugins in .zshrc
+  
+  plugins=(
+  git
+  bundle
+  autopep8
+  zsh-autosuggestions
+  gitfast
+  git-extras
+  git-flow
+  git-flow-avh
+  git-hubflow
+  git_remote_branch
+  github
+  history
+  jsontools
+  pip
+  python
+  pylint
+  scala
+  sudo
+  vagrant
+  web-search
+  autojump
+  tmux
+)
+    
+------------------------------------------------------------------------------------
+TMUX
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
